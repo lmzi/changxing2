@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动态-1</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/news.css">
+	<link rel="stylesheet" href="css/page.css">
+	<link rel="stylesheet" href="css/head.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="shortcut icon" href=" images/logo.ico">
+</head>
+<body>
+		<div class="header">
+  <div class="header_bar">
+    <h1 class="logo"> <a href="index.html"><img src="picture/logo.png" title="首页" alt="首页" style="margin-top: -15px;"></a> </h1>
+    <span style="margin-left:80%; line-height:34px;color:#fff;">咨询电话：0312-6783108</span>	
+    <ul id="social" class="social">
+      <li class="slist"> <a class="sfocus" href="javascript:void(0);">官方微博</a>
+        <div class="sqrcode_wrap"> <a class="sqrcode" href="javascript:void(0);"><img src="picture/weibo185.png" title="扫一扫"  alt="扫一扫" /></a> <a class="slink" href="javascript:void(0);">新浪微博</a> </div>
+      </li>
+      <li class="slist"> <a class="sfocus" href="javascript:void(0);">官方微信</a>
+        <div class="sqrcode_wrap"> <a class="sqrcode" href="javascript:void(0);"><img src="picture/weixin185.png" title="扫一扫"  alt="扫一扫" /></a> <a class="slink" href="javascript:void(0);">微信</a> </div>
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" value="5" id="hidTypeId" />
+  <div id="menu" class="menu">
+    <ul class="mwrap">
+      <li class="mli"> <a href="index.html" class="mlink" id="topMenu1"> <span class="mico mico_home"><span class="micoi"></span></span> <span class="mname">首页</span> </a> </li>
+      <li class="mli"> <a href="abouts.html" class="mlink curr" id="topMenu2"> <span class="mico mico_about"><span class="micoi"></span></span> <span class="mname">关于</span> </a> </li>
+      <li class="mli"> <a href="service.html" class="mlink" id="topMenu3"> <span class="mico mico_service"><span class="micoi"></span></span> <span class="mname">服务</span> </a> </li>
+      <li class="mli"> <a href="anli.html" class="mlink" id="topMenu4"> <span class="mico mico_case"><span class="micoi"></span></span> <span class="mname">案例</span> </a> </li>
+      <li class="mli"> <a href="news.html" class="mlink" id="topMenu5"> <span class="mico mico_news"><span class="micoi"></span></span> <span class="mname">动态</span> </a> </li>
+      <li class="mli"> <a href="contact.html" class="mlink" id="topMenu6"> <span class="mico mico_contact"><span class="micoi"></span></span> <span class="mname">联系</span> </a> </li>
+    </ul>
+    <div class="mshadow"></div>
+  </div>
+</div>
+<script type="text/javascript">
+        var typeid= document.getElementById("hidTypeId").value;
+        
+      for(var i = 1 ;i <= 6;i++)
+      {
+        if(i == typeid){
+            document.getElementById("topMenu" + i).className="mlink curr";
+        }else
+        {
+             document.getElementById("topMenu" + i).className="mlink";
+        }
+      }
+
+    </script>
+	<div class="news1 gwidth">
+		<div class="fade_block fade_left" fade-name="fade_left" style="visibility: visible; animation-name: fade_left;">
+				<h1>影响百度网页快照优化排名的因素</h1>
+				<div>
+						<h3>一、修改TDK</h3>
+				　　<p>有些客户会觉得自己网站的TDK没有设置好，后期因为业务或产品等某些原因，频繁的修改网站的标题关键词描述，导致百度蜘蛛抓取异常，百度为了稳定自己的数据库，会把调取网站之前的某次快照，直至百度观察本次更改稳定后，才会择期更新百度快照。</p>
+				</div>
+				<div>
+						<h3>二、文章内容差</h3>
+				　　<p>有些网站没有专业的编辑，单纯是从其他网站上抄袭文章，这种操作方法可能刚开始百度会进行收录，但是后			面百度会把网站内容与网络内容进行对比，如果发现大量的抄袭内容，百度也会对本站已经收录的文章内容进行			释放，导致网站收录内容减少，严重的会造成快照倒退。</p>
+				</div>
+				<div>
+						<h3>三、网站更新慢</h3>
+				　　<p>有些客户的网站主要做的是产品展示，所以也就没有了新闻资讯等有质量的内容更新，这样的话，百度快照会			回退到更新的那次快照。这种网站一般排名都不会太好，所以为了让百度给网站更好的排名，更高的评分，各位			站长还需多做原创内容啊。</p>
+						<div>
+							<img src="images/seo.jpg" alt="">
+						</div>
+				</div>
+				<div>
+				　　<h3>四、外链质量低</h3>
+				　　<p>想当年百度对外链的重视程度不亚于现在对原创文章的重视度，于是各种一键发外链的工具如雨后春笋般应			运而生，但是随之而来的，是百度对各种违规外链的打压。快速发外链会在短时期内发布数以千计的外链，但是			如果百度对垃圾外链进行清算的话，就会造成网站外链大量的减少，进而影响到百度快照的更新。</p>
+				</div>
+				<div>
+				　　<h3>五、服务器不稳定</h3>
+　						<p>这个因素引起的很常见，如果你空间频繁打不开或者打开速度相当慢的话，会影响百度蜘蛛进行正常											抓取。当蜘蛛多次抓取不了的话，会产生不信任感，于是就会屏蔽你的网站。有能力的站长可以查												询一下网站日志，如果蜘蛛来访的产生了500或者503代码，就代码您的空间不稳定。</p>
+				</div>
+				<div class="fy">
+					<div class="left">
+						<a href="##">已到顶部</a>
+					</div>
+					<div class="right">
+						<a href="newsb.html">下一篇：网站优化和排名-百度算法</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- 底部 -->
+
+<div class="webSite">
+	<ul class="wsLink" >
+		<li class="wslList" style="margin-left:50px;"> <a  class="wslName" href="abouts.html"><span>关于我们</span></a> 
+
+			<ul class="wslcQuery">
+				<li> <a>公司概况</a>
+				</li>
+				<li> <a>我们的观点</a>
+				</li>
+				<li> <a>我们的优势</a>
+				</li>
+				<li> <a>企业文化</a>
+				</li>
+			</ul>
+		</li>
+		<li class="wslList"><a  class="wslName" href="abouts.html"><span>服务项目</span>
+
+			<ul class="wslcQuery">
+				<li> <a>品牌网站建设</a>
+				</li>
+				<li> <a>响应式网站</a>
+				</li>
+				<li> <a>网站优化推广</a>
+				</li>
+				<li> <a>网站运营维护</a>
+				</li>
+			</ul>
+		</li>
+		<li class="wslList"><a  class="wslName" href="news.html"><span>新闻动态</span>
+
+			<ul class="wslcQuery">
+				<li> <a>公司动态</a>
+				</li>
+				<li> <a>行业资讯</a>
+				</li>
+			</ul>
+		</li>
+		<li class="wslList"><a  class="wslName" href="contact.html"><span>联系我们</span>
+
+			<ul class="wslcQuery">
+				<li> <a>联系方式</a>
+				</li>
+				<li> <a>需求提交</a>
+				</li>
+			</ul>
+		</li>
+		<li class="wslList">
+				<ul  class="wslcQuery">
+						<li><span class="wscKey"><img src="picture/index_hezuo6.png" alt=""></span>
+						</li>
+				</ul>
+		</li>
+	   
+	</ul>    
+<div class="textLink">
+
+	<div class="back">
+			<div class="tlHeader">友情链接 <span class="tlNameEn">/ LINK</span></div>
+	</div>
+	
+	<ul class="linkQuery">
+		<li><a href='http://www.bdgp-led.com/' target='_blank'>保定市畅行网络技术有限公司</a> 
+		</li>
+		<li><a href='https://www.11467.com/qiye/33601816.htm' target='_blank'>保定博楷电子科技有限公司</a> 
+		</li>
+		<li><a href='http://www.bdgp-led.com/' target='_blank'>北京辉煌阳光科技有限公司</a> 
+		</li>
+		<li><a href='http://www.bdgp-led.com/' target='_blank'>河北欧亚照明科技有限公司</a> 
+		</li>
+	</ul>
+	<!-- <div class="fengexian"></div> -->
+	<div class="footerWrap">
+		<p>Copyright ? 2012-2019.    保定市畅行网络技术有限公司  版权所有</p>
+	</div>
+</div>
+</div>
+</body>
+</html>
